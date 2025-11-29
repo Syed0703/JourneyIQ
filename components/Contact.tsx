@@ -4,10 +4,20 @@ import { useState } from "react";
 
 const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const [message, setMessage] = useState("");
 
   const handleSubmit = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
-    alert(`Message sent!\nName: ${form.name}\nEmail: ${form.email}`);
+    if(form.name == "" || form.email == "" || form.message == ""){
+      setMessage("Fill up all the fields")
+    }
+    else{
+      setMessage("Message sent successfully !")
+      setTimeout(() => {
+        setMessage("");
+      },1000)
+    }
+
   };
 
   return (
@@ -45,6 +55,7 @@ const Contact = () => {
           >
             Send Message
           </button>
+          <p className="text-red-700 text-center">{message}</p>
         </form>
       </div>
     </section>
