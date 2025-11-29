@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+JourneyIQ - AI Travel Planner Landing Page.
 
-## Getting Started
+A responsive, modular landing page built with **Next.js**, **Tailwind CSS**, and **Vercel v0**.  
+This project was developed as part of a frontend evaluation assignment, showcasing recruiter‑friendly structure, clean design, and modern workflow.
 
-First, run the development server:
+---
 
-```bash
+## 🚀 Live Demo
+👉 [View Deployed Project](https://journey-iq.vercel.app/)
+
+---
+
+## 🛠 Tech Stack
+- **Framework:** Next.js
+- **Styling:** Tailwind CSS
+- **UI Generation:** Vercel v0
+- **Deployment:** Vercel
+
+---
+## 📂 Project Structure
+
+├── app/             # App Router core (layout, pages, styles)
+├── components/      # Modular UI components (Hero, Features, Testimonials, Pricing, Footer, etc.)
+├── public/          # Static assets (images, icons, fonts)
+├── node_modules/
+├── .gitignore
+├── package.json
+└── README.md
+---
+
+## ⚡ Features
+- 🌍 AI-powered travel planning concept)
+- 🎨 Tailwind CSS for rapid styling
+- 🔗 Recruiter-friendly modular code
+- 🚀 Instant deployment with Vercel
+
+---
+
+## 🖥️ Getting Started
+Follow these steps to set up the project locally and deploy it to Vercel.
+
+Prerequisites
+Node.js (v18 or later recommended)
+
+npm or yarn package manager
+
+Git installed on your machine
+
+A GitHub account (for deployment via Vercel)
+
+## 1. Clone the Repository
+Bash
+
+git clone https://github.com/Syed0703/JourneyIQ.git
+cd ai-travel-planner
+
+## 2. Install Dependencies
+Bash
+
+npm install
+# or
+# yarn install
+
+## 3. Run the Development Server
+Bash
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Visit http://localhost:3000 in your browser to view the app.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 4. Build for Production
+Bash
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+npm run build
+npm run start
+This will create an optimized production build and start the server.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 5. Deploy to Vercel
+Push your project to GitHub:
 
-## Learn More
+Bash
 
-To learn more about Next.js, take a look at the following resources:
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+Go to Vercel and sign in with GitHub.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Click New Project → select your repo.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Vercel will auto-detect Next.js and deploy your app.
 
-## Deploy on Vercel
+You’ll get a live link like: https://your-project.vercel.app
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 Vercel v0 Usage Notes
+Hero section UI generated with Vercel v0
+
+Features cards scaffolded via v0, styled with Tailwind
+
+Testimonials layout generated with v0, integrated manually
+
+Footer built manually for branding consistency
+
+## 📜 Assignment Submission
+Live Deployed Link (Vercel): https://journey-iq.vercel.app/
+
+GitHub Repository Link: https://github.com/Syed0703/JourneyIQ.git
+
+Short Notes: See Vercel v0 Usage Notes section above.
+
+## 👨‍💻 Author
+Syed Siddiq
+
+Passionate about building portfolio-worthy web projects with Next.js + Tailwind CSS.
+
+Focused on recruiter-friendly design, modular code, and clean documentation.
+
+
+
